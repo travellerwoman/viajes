@@ -24,6 +24,9 @@ blockquote{
 h1{
 	color:rgba(0,92,128,1);
 }
+p{
+	padding: 2%;
+}
 /********** POR SECCIÓN CONCRETA*************/
 section{
 	display: flex;
