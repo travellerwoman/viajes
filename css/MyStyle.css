@@ -24,6 +24,6 @@ h1{
 }
 /********** POR SECCIÓN CONCRETA*************/
 section{
-	display: 40%;
+/*	display: 40%;*/
 	padding: 10px;
 }
