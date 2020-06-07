@@ -23,7 +23,7 @@ blockquote{
     clear: right;
 }
 ul{
-	list-style-image: url("multimedia/logo_azul.PNG");
+	list-style-image: url("/viajes/multimedia/logo_azul.PNG");
 }
 /*********** POR TIPO DE LETRA **************/
 h1{
