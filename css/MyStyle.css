@@ -22,6 +22,9 @@ blockquote{
     font-family: monospace;
     clear: right;
 }
+ul{
+	list-style-image: url("multimedia/logo_azul.PNG");
+}
 /*********** POR TIPO DE LETRA **************/
 h1{
 	color:rgba(0,92,128,1);
