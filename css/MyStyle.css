@@ -24,8 +24,9 @@ h1{
 }
 /********** POR SECCIÓN CONCRETA*************/
 section{
-	display: table-cell;
+	display: inline-block;
 	border: solid 3px rgba(0,92,128,1);
 	border-style: double;
 	margin: 10px;
+	width: 40%
 }
