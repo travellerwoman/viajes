@@ -15,8 +15,9 @@ nav{
 }
 blockquote{
 	background-color: #9e9e9e12;
-	display: block;
+	display: inline;
 	font-family: monospace;
+	clear:right;
 }
 /*********** POR TIPO DE LETRA **************/
 h1{
