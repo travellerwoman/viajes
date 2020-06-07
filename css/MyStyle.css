@@ -1,14 +1,22 @@
 html{
 	background-color: rgba(133,210,218,0.2); 
 }
+/*********** POR SECCIONES **************/
 header{
 	text-align: center;
 }
-h1{
+nav{
+	float: right;
+	border: solid 4px rgba(0,92,128,1);
 	color:rgba(0,92,128,1);
+	background-color: rgba(133,210,218,0.77);
 }
 blockquote{
 	background-color: #9e9e9e12;
 	display: inline;
 	font-family: monospace;
+}
+/*********** POR TIPO DE LETRA **************/
+h1{
+	color:rgba(0,92,128,1);
 }
