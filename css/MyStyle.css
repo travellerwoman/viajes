@@ -24,6 +24,7 @@ blockquote{
 }
 ul{
 	list-style-image: url("/viajes/multimedia/logo_azul.PNG");
+	max-height: 1%;
 }
 /*********** POR TIPO DE LETRA **************/
 h1{
