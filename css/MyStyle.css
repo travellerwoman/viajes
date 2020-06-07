@@ -28,5 +28,6 @@ section{
 	border: solid 3px rgba(0,92,128,1);
 	border-style: double;
 	margin: 10px;
-	width: 40%
+	width: 40%;
+	float: left;
 }
