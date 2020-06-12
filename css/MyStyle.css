@@ -13,10 +13,10 @@ nav{
     border: solid 3px rgba(0,92,128,1);
     color: rgba(0,92,128,1);
     margin: 10px;
-    padding: 1%;
+	padding: 0.2% 1% 0.2px 0px;
     text-align: left;
     display: inline;
-    border-radius: 10px;
+    border-radius: 10%;
 }
 nav li{
 	color: black;
