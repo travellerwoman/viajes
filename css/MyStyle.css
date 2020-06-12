@@ -23,6 +23,8 @@ nav a{
 }
 #cabecera{
 	background:url("/viajes/multimedia/fondo_cabecera.png");
+}
+#cabecera+img{
 	height: 100px;
 	border-radius: 15%;
 }
