@@ -16,6 +16,7 @@ nav{
     padding: 1%;
     text-align: left;
     display: inline;
+    border-radius: 10px;
 }
 nav li{
 	color: black;
