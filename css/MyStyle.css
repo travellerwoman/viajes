@@ -67,7 +67,7 @@ section{
     display: none;
 }
 
-.menu-item-type-custom>hover .sub-menu{
+nav div ul li a>hover .sub-menu{
     display:block;
 }
 
