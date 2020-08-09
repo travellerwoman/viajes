@@ -60,7 +60,7 @@ section{
     padding-left: 2%;
 }
 
-@media only screen and (min-width: 930px)
+@media only screen and (min-width: 930px) 
 #menu-item-10722 .sub-menu a {
     width: 200px;
 }
@@ -137,7 +137,22 @@ section{
     padding: 15px;
     text-transform: uppercase;
 }
-a, .after-entry a:hover, .archive-description a:hover, .author-box a:hover, .breadcrumb a:hover, .comment-respond a:hover, .entry-comments a:hover, .entry-content a:hover, .entry-title a:hover, .footer-widgets a:hover, .genesis-nav-menu a:hover, .genesis-nav-menu .sub-menu a:hover, .pagination a:hover, .sidebar a:hover, .site-footer a:hover, .sticky-message a:hover {
+a, 
+.after-entry a:hover, 
+.archive-description a:hover, 
+.author-box a:hover, 
+.breadcrumb a:hover, 
+.comment-respond a:hover, 
+.entry-comments a:hover, 
+.entry-content a:hover, 
+.entry-title a:hover, 
+.footer-widgets a:hover, 
+.genesis-nav-menu a:hover, 
+.genesis-nav-menu .sub-menu a:hover, 
+.pagination a:hover, 
+.sidebar a:hover, 
+.site-footer a:hover, 
+.sticky-message a:hover {
     color: #ee2957;
 }
 a {
