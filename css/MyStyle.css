@@ -200,14 +200,13 @@ a:-webkit-any-link {
 .responsive-menu-icon, .responsive-menu .menu-item-has-children {
     cursor: pointer;
 }
+}
 li {
     list-style-type: none;
 }
-user agent stylesheet
 li {
     text-align: -webkit-match-parent;
 }
-user agent stylesheet
 ul ul {
     list-style-type: circle;
 }
