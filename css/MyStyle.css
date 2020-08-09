@@ -62,11 +62,11 @@ section{
     padding-left: 2%;
 }
 /*****************************************************************************************************************/
-.sub-menu{
+.menu-item-is-children{
     display: none;
 }
 
-nav div ul li a>hover .sub-menu{
+.menu-item-has-children>hover .menu-item-is-children{
     display:block;
 }
 
