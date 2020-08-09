@@ -59,7 +59,7 @@ section{
     /* float: left; */
     padding-left: 2%;
 }
-
+/*****************************************************************************************************************/
 @media only screen and (min-width: 930px){ 
     #menu-item-10722 .sub-menu a {
         width: 200px;
