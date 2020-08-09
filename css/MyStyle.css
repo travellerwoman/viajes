@@ -65,31 +65,32 @@ section{
         width: 200px;
     }
 
-    .genesis-nav-menu .sub-menu a {
+    .menu-arriba .sub-menu a {
         color: #000;
         border: 1px solid #000;
         background-color: #fff;
         font-size: small;
     }
-    .genesis-nav-menu .sub-menu a {
+    .menu-arriba .sub-menu a {
         text-transform: uppercase;
     }
 }
 @media only screen and (min-width: 930px){
-    .genesis-nav-menu .sub-menu, .genesis-nav-menu .sub-menu a {
+    .menu-arriba .sub-menu, 
+    .menu-arriba .sub-menu a {
         text-align: center;
         width: 200px;
     }
 }
 
 @media only screen and (min-width: 930px){
-    .genesis-nav-menu .sub-menu a {
+    .menu-arriba .sub-menu a {
         border: 1px solid #fff;
         border-top: 0;
         padding: 20px;
         color: #fff;
     }
-    .genesis-nav-menu .sub-menu a {
+    .menu-arriba .sub-menu a {
         color: #000;
         letter-spacing: 0;
         position: relative;
@@ -98,7 +99,7 @@ section{
 }
 
 @media only screen and (min-width: 1170px){
-    .genesis-nav-menu a {
+    .menu-arriba a {
         padding-left: 13px;
         padding-right: 13px;
         font-size: 15px;
@@ -106,7 +107,7 @@ section{
 } 
 
 @media only screen and (min-width: 930px){
-    .genesis-nav-menu a {
+    .menu-arriba a {
         padding-bottom: 29px;
         padding-top: 29px;
         padding-left: 6px;
@@ -115,32 +116,32 @@ section{
     }
 }
 @media only screen and (min-width: 930px){
-    .genesis-nav-menu a {
+    .menu-arriba a {
         padding-left: 12px;
         padding-right: 12px;
     }
 }
 
 @media only screen and (min-width: 930px){
-    .genesis-nav-menu a {
+    .menu-arriba a {
         padding: 29px 6px 9px 29px;
     }
-    .genesis-nav-menu a {
+    .menu-arriba a {
         font-size: 13px;
     }
 }
 
 @media only screen and (min-width: 1100px){
-    .genesis-nav-menu a {
+    .menu-arriba a {
         padding: 29px 20px;
     }
 }
 @media only screen and (min-width: 930px){
-.genesis-nav-menu a {
+.menu-arriba a {
     padding-bottom: 29px;
     padding-top: 29px;
 }
-.genesis-nav-menu a {
+.menu-arriba a {
     color: #000;
     display: block;
     font-family: Montserrat,sans-serif;
@@ -160,8 +161,8 @@ a,
 .entry-content a:hover, 
 .entry-title a:hover, 
 .footer-widgets a:hover, 
-.genesis-nav-menu a:hover, 
-.genesis-nav-menu .sub-menu a:hover, 
+.menu-arriba a:hover, 
+.menu-arriba .sub-menu a:hover, 
 .pagination a:hover, 
 .sidebar a:hover, 
 .site-footer a:hover, 
@@ -218,7 +219,7 @@ user agent stylesheet
 li {
     text-align: -webkit-match-parent;
 }
-.genesis-nav-menu {
+.menu-arriba {
     line-height: 1;
 }
 user agent stylesheet
