@@ -60,6 +60,12 @@ section{
     padding-left: 2%;
 }
 /*****************************************************************************************************************/
+a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 @media only screen and (min-width: 930px){ 
     .menu-arriba .sub-menu a {
         color: #000;
@@ -131,31 +137,36 @@ a,
 a {
     color: #f7a27f;
     text-decoration: none;
+    background: 0 0;
 }
-a, button, input:focus, input[type="button"], input[type="reset"], input[type="submit"], textarea:focus, .button, .gallery img {
+
+a, 
+button, 
+input:focus, 
+input[type="button"], 
+input[type="reset"], 
+input[type="submit"], 
+textarea:focus, 
+.button, 
+.gallery img {
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     -ms-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
 }
-a {
-    background: 0 0;
-}
+
+
 *, input[type="search"] {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-a:-webkit-any-link {
-    color: -webkit-link;
-    cursor: pointer;
-    text-decoration: underline;
-}
-.responsive-menu-icon, .responsive-menu .menu-item-has-children {
-    cursor: auto;
-}
-.responsive-menu-icon, .responsive-menu .menu-item-has-children {
+
+
+
+.responsive-menu-icon, 
+.responsive-menu .menu-item-has-children {
     cursor: pointer;
 }
 
