@@ -60,6 +60,11 @@ section{
     /* float: left; */
     padding-left: 2%;
 }
+
+.nav-principal a{
+    width: 100px;
+    border: solid 3px #925E99;
+}
 /*****************************************************************************************************************/
 #menu-barra-izq{
     float: left;
@@ -248,7 +253,7 @@ html {
 nav{
     /*float: right;
     border: solid 3px rgba(0,92,128,1);*/
-    color: #925E99;
+    background-color: #925E99;
     margin: 10px;
     padding: 0.2% 1% 0.2px 0px;
     text-align: left;
