@@ -8,18 +8,7 @@ header{
     padding: 0.1%;
 }
 
-nav{
-	/*float: right;
-    border: solid 3px rgba(0,92,128,1);*/
-    color: #925E99;
-    margin: 10px;
-	padding: 0.2% 1% 0.2px 0px;
-    text-align: left;
-    display: inline;
-    border-radius: 10%; 
-    width: 40%;/*Le establecemos un ancho*/
-    margin:0 auto; /*Centramos automaticamente*/
-}
+
 
 nav a{
 	color: black;
@@ -223,6 +212,18 @@ html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
+}
+nav{
+    /*float: right;
+    border: solid 3px rgba(0,92,128,1);*/
+    color: #925E99;
+    margin: 10px;
+    padding: 0.2% 1% 0.2px 0px;
+    text-align: left;
+    display: inline;
+    border-radius: 10%; 
+    width: 40%;/*Le establecemos un ancho*/
+    margin:0 auto; /*Centramos automaticamente*/
 }
 
 ::selection {
