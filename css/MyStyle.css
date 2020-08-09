@@ -69,7 +69,15 @@ section{
     float: right;
 }
 
-.menu-item-has-children:hover .menu-item-is-children {
+.sub-menu {
+    display: none;
+}
+
+.menu-item-has-children:hover > .submenu {
+    display: block;
+}
+
+/*.menu-item-has-children:hover .menu-item-is-children {
     display:block;
 }
 
@@ -83,7 +91,7 @@ section{
 
 .menu-item-has-children:hover .menu-item-ciudad{
     display:block;
-}
+}*/
 a:-webkit-any-link {
     color: -webkit-link;
     cursor: pointer;
