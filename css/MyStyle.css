@@ -16,8 +16,7 @@ nav{
 	padding: 0.2% 1% 0.2px 0px;
     text-align: left;
     display: inline;
-    border-radius: 10%;
-    width:500px; /*Le establecemos un ancho*/
+    border-radius: 10%; /*Le establecemos un ancho*/
     margin:0 auto; /*Centramos automaticamente*/
 }
 
