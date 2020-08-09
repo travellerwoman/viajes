@@ -7,6 +7,10 @@ header{
     background-color: rgba(0,92,128,0.3);
     padding: 0.1%;
 }
+
+header img{
+    no-repeat:!important;
+}
 nav{
 	float: right;
     border: solid 3px rgba(0,92,128,1);
