@@ -172,28 +172,22 @@ textarea:focus,
 
 li {
     list-style-type: none;
-}
-li {
     text-align: -webkit-match-parent;
 }
+
 ul ul {
     list-style-type: circle;
 }
-user agent stylesheet
+
 ul {
     list-style-type: disc;
 }
-user agent stylesheet
-li {
-    text-align: -webkit-match-parent;
-}
+
+
 .menu-arriba {
     line-height: 1;
 }
-user agent stylesheet
-ul {
-    list-style-type: disc;
-}
+
 body {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -201,8 +195,6 @@ body {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-}
-body {
     background-attachment: fixed;
     background-color: #fff;
     background-position: top left;
@@ -215,11 +207,13 @@ body {
     margin: 0;
     -webkit-font-smoothing: antialiased;
 }
+
 html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
 }
+
 ::selection {
     background-color: #000;
     color: #fff;
