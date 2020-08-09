@@ -37,10 +37,10 @@ blockquote{
     font-family: monospace;
     clear: right;
 }
-ul{
+/*ul{
 	list-style-image: url("/viajes/multimedia/logo_azul_peque.png");
 	height: 1%;
-}
+}*/
 /*********** POR TIPO DE LETRA **************/
 h1{
 	color:rgba(0,92,128,1);
