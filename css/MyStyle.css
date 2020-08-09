@@ -60,6 +60,9 @@ section{
     padding-left: 2%;
 }
 /*****************************************************************************************************************/
+.sub-menu{
+    display: none;
+}
 a:-webkit-any-link {
     color: -webkit-link;
     cursor: pointer;
