@@ -56,7 +56,7 @@ section{
     display: none;
 }
 
-.menu-item-has-children:hover>.menu-item-is-children{
+.menu-item-has-children:hover .menu-item-is-children {
     display:block;
 }
 
