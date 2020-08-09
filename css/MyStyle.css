@@ -66,31 +66,38 @@ section{
         border: 1px solid #000;
         background-color: #fff;
         font-size: small;
-    }
-    .menu-arriba .sub-menu a {
         text-transform: uppercase;
+        border-top: 0;
+        padding: 20px;
+        letter-spacing: 0;
+        position: relative;
     }
-}
-@media only screen and (min-width: 930px){
     .menu-arriba .sub-menu, 
     .menu-arriba .sub-menu a {
         text-align: center;
         width: 200px;
     }
+
+    .menu-arriba a {
+        padding-bottom: 29px;
+        padding-top: 29px;
+        padding-left: 6px;
+        padding-right: 6px;
+        font-size: 12px;
+        color: #000;
+        display: block;
+        font-family: Montserrat,sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        letter-spacing: 1px;
+        padding: 15px;
+        text-transform: uppercase;
+    }
 }
 
-@media only screen and (min-width: 930px){
-    .menu-arriba .sub-menu a {
-        border: 1px solid #fff;
-        border-top: 0;
-        padding: 20px;
-        color: #fff;
-    }
-    .menu-arriba .sub-menu a {
-        color: #000;
-        letter-spacing: 0;
-        position: relative;
-        text-transform: none;
+@media only screen and (min-width: 1100px){
+    .menu-arriba a {
+        padding: 29px 20px;
     }
 }
 
@@ -102,52 +109,6 @@ section{
     }
 } 
 
-@media only screen and (min-width: 930px){
-    .menu-arriba a {
-        padding-bottom: 29px;
-        padding-top: 29px;
-        padding-left: 6px;
-        padding-right: 6px;
-        font-size: 12px;
-    }
-}
-@media only screen and (min-width: 930px){
-    .menu-arriba a {
-        padding-left: 12px;
-        padding-right: 12px;
-    }
-}
-
-@media only screen and (min-width: 930px){
-    .menu-arriba a {
-        padding: 29px 6px 9px 29px;
-    }
-    .menu-arriba a {
-        font-size: 13px;
-    }
-}
-
-@media only screen and (min-width: 1100px){
-    .menu-arriba a {
-        padding: 29px 20px;
-    }
-}
-@media only screen and (min-width: 930px){
-.menu-arriba a {
-    padding-bottom: 29px;
-    padding-top: 29px;
-}
-.menu-arriba a {
-    color: #000;
-    display: block;
-    font-family: Montserrat,sans-serif;
-    font-size: 12px;
-    font-weight: 400;
-    letter-spacing: 1px;
-    padding: 15px;
-    text-transform: uppercase;
-}
-}
 a, 
 .after-entry a:hover, 
 .archive-description a:hover, 
@@ -166,6 +127,7 @@ a,
 .sticky-message a:hover {
     color: #ee2957;
 }
+
 a {
     color: #f7a27f;
     text-decoration: none;
