@@ -63,6 +63,11 @@ section{
 .sub-menu{
     display: none;
 }
+
+.menu-item-type-custom>hover .sub-menu{
+    display:block;
+}
+
 a:-webkit-any-link {
     color: -webkit-link;
     cursor: pointer;
