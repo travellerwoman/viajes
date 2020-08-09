@@ -8,9 +8,6 @@ header{
     padding: 0.1%;
 }
 
-header img{
-    no-repeat:!important;
-}
 nav{
 	float: right;
     border: solid 3px rgba(0,92,128,1);
@@ -26,7 +23,9 @@ nav a{
 	text-decoration: none;
 }
 #cabecera{
-	background:url("/viajes/multimedia/fondo_cabecera.png");
+	background:url("/viajes/multimedia/fondo_cabecera.png")
+    no-repeat:!important;
+
 }
 #cabecera+img{
 	height: 100px;
