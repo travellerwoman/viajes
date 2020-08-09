@@ -61,10 +61,6 @@ section{
 }
 /*****************************************************************************************************************/
 @media only screen and (min-width: 930px){ 
-    #menu-item-Europa .sub-menu a {
-        width: 200px;
-    }
-
     .menu-arriba .sub-menu a {
         color: #000;
         border: 1px solid #000;
@@ -151,6 +147,7 @@ section{
     padding: 15px;
     text-transform: uppercase;
 }
+}
 a, 
 .after-entry a:hover, 
 .archive-description a:hover, 
@@ -200,7 +197,7 @@ a:-webkit-any-link {
 .responsive-menu-icon, .responsive-menu .menu-item-has-children {
     cursor: pointer;
 }
-}
+
 li {
     list-style-type: none;
 }
