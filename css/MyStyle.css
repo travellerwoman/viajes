@@ -52,14 +52,15 @@ section{
     padding-left: 2%;
 }
 /*****************************************************************************************************************/
-.menu-item-is-children{
-    display: none;
-}
+
 
 .menu-item-has-children:hover .menu-item-is-children {
     display:block;
 }
 
+.menu-item-is-children{
+    display: none;
+}
 a:-webkit-any-link {
     color: -webkit-link;
     cursor: pointer;
