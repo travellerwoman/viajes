@@ -1,1 +1,1 @@
-function on{}
+function on(){}
