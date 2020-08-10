@@ -324,11 +324,11 @@ nav a:hover{
     background-color: #005f5f;
 }
 
-nav a:active{
+/*nav a:active{
     background-color: #aaa;
     color: #444;
     cursor: default;
-}
+}*/
 
 nav>ul>li{
     text-align: center;
