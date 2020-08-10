@@ -352,6 +352,6 @@ nav li ul li{
     display: block;
     width: auto;
 }
-nav li a {
-    position: absolute;
+nav li a{
+    display: block;
 }
