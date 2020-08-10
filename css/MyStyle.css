@@ -75,11 +75,13 @@ section{
     float: right;
 }
 
-.sub-menu {
+.menu-item-is-children
+.menu-item-ciudad {
     display: none;
 }
 
-.menu-item-has-children:hover > .submenu {
+.menu-item-has-children:hover > .menu-item-is-children,
+.menu-item-has-second-children:hover > .menu-item-ciudad {
     display: block;
 }
 
