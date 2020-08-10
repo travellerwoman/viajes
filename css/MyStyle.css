@@ -24,8 +24,7 @@ ul{
 }
 
 #cabecera{
-	background:url(/viajes/multimedia/fondo_cabecera.png) no-repeat !important;
-
+	background:#925E99/*url(/viajes/multimedia/fondo_cabecera.png) no-repeat !important*/;
 }
 #cabecera+img{
 	height: 100px;
