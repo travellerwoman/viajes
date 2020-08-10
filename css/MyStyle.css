@@ -91,6 +91,14 @@ section{
     display: block;
 }
 
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    display: block;
+}
+
 /*.menu-item-has-children:hover .menu-item-is-children {
     display:block;
 }
