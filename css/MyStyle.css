@@ -294,7 +294,7 @@ nav ul{
 }
 
 nav li{
-    width: 30%;
+    width: 15%;
     border-right: 1px solid black;
     height:50px;
     line-height: 50px;
@@ -351,4 +351,7 @@ nav li:hover ul{
 nav li ul li{
     display: block;
     width: auto;
+}
+nav li a {
+    position: absolute;
 }
