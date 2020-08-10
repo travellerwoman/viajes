@@ -84,7 +84,12 @@ section{
 .menu-item-has-second-children:hover  .menu-item-ciudad-Austria,
 .menu-item-has-second-children:hover  .menu-item-ciudad-España,
 .menu-item-has-second-children:hover  .menu-item-ciudad-Portugal,
-.menu-item-has-second-children:hover  .menu-item-ciudad-RepChec {
+.menu-item-has-second-children:hover  .menu-item-ciudad-RepChec,
+.menu-item-has-children:active  .menu-item-is-children-Europa,
+.menu-item-has-second-children:active  .menu-item-ciudad-Austria,
+.menu-item-has-second-children:active  .menu-item-ciudad-España,
+.menu-item-has-second-children:active  .menu-item-ciudad-Portugal,
+.menu-item-has-second-children:active  .menu-item-ciudad-RepChec {
     display: block;
 }
 
