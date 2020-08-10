@@ -80,8 +80,8 @@ section{
     display: none;
 }
 
-.menu-item-has-children:hover > .menu-item-is-children,
-.menu-item-has-second-children:hover > .menu-item-ciudad {
+.menu-item-has-children:hover  .menu-item-is-children,
+.menu-item-has-second-children:hover  .menu-item-ciudad {
     display: block;
 }
 
