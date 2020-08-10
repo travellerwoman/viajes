@@ -75,7 +75,7 @@ section{
     float: right;
 }
 
-.menu-item-is-children
+.menu-item-is-children,
 .menu-item-is-children-Europa {
     display: none;
 }
