@@ -61,7 +61,8 @@ section{
     padding-left: 2%;
 }
 
-.nav-principal a{
+.nav-principal a,
+.nav-secondary a{
     width: 100px;
     border: solid 3px #925E99;
 }
