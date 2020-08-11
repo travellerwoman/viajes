@@ -25,7 +25,7 @@ header h1{
 
 blockquote{
     background-color: rgb(146 94 153 / 10%);
-    display: block;
+    display: inline-block;
     font-family: monospace;
     clear: right;
 }
