@@ -167,6 +167,10 @@ nav a{
 
 /* Estilo de fotos*/
 .portada-imagen{
+    width: 100%;
+}
+
+.article{
     width: 30%;
 }
 }
