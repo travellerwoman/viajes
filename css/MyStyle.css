@@ -73,6 +73,11 @@ h2 {
     align-items: center;
 }
 
+.articles-shadow {
+    padding: 1%;
+    border-radius: 3%;
+}
+
 /*****************************************************************/
 /* Para pantalla de ordenador*/
 @media only screen and (min-width: 1160px){ 
