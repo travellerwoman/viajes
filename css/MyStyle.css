@@ -21,7 +21,7 @@ header h1{
     font-size:4rem;
     padding: 10px 10px;
     font-family:brush script mt;
-    display: inline-block;
+    display: block;
 }
 
 blockquote{
@@ -77,14 +77,16 @@ h2 {
     border-radius: 3%;
 }
 
-#foto-cabecera-izq{
+#foto-cabecera-der {
     display: inline-block;
-    float:right;
+    float: left;
+    width: 30%;
 }
 
-#foto-cabecera-der{
+#foto-cabecera-izq {
     display: inline-block;
-    float:left;
+    float: right;
+    width: 30%;
 }
 
 /*****************************************************************/
@@ -206,6 +208,10 @@ article{
 
 .articles-shadow{
     box-shadow: 0 0 15px #c1c0c1;
+}
+
+.nav{
+    display: block;
 }
 
 }
