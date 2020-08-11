@@ -20,7 +20,8 @@ header h1{
     color:#925E99;
     font-size:4rem;
     padding: 10px 10px;
-        font-family:brush script mt;
+    font-family:brush script mt;
+    display: inline-block;
 }
 
 blockquote{
@@ -74,6 +75,16 @@ h2 {
 .articles-shadow {
     padding: 1%;
     border-radius: 3%;
+}
+
+#foto-cabecera-izq{
+    display: inline-block;
+    float:left;
+}
+
+#foto-cabecera-izq{
+    display: inline-block;
+    float:right;
 }
 
 /*****************************************************************/
