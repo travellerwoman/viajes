@@ -164,6 +164,11 @@ nav li ul li{
 nav a{
     transition: 1s background-color;
 }
+
+/* Estilo de fotos*/
+.portada-imagen{
+    width: 30%;
+}
 }
 
 
