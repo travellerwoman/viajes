@@ -63,6 +63,16 @@ body{
     color: rgb(146 94 153 / 60%);
 }
 
+h2 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#Bio h2 {
+    display: flex;
+    align-items: center;
+}
+
 /*****************************************************************/
 /* Para pantalla de ordenador*/
 @media only screen and (min-width: 1160px){ 
