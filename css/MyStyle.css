@@ -1,57 +1,40 @@
-html{
-	background-color: rgba(133,210,218,0.1); 
+
+/*Resetear todos los valores*/
+* {
+    text-decoration:none;
+    list-style:none;
+    margin:0;
+    padding:0;
+    background-color:lightgray;
+    font-family:sans-serif;
+    font-size: 1.1rem;
 }
-/*********** POR SECCIONES **************/
+
+/* Encabexado*/
 header{
-	text-align: center;
-    background-color: rgba(0,92,128,0.3);
-    padding: 0.1%;
+    width:100%;
+    text-align:center;
 }
 
-
-
-nav a{
-	color: black;
-	text-decoration: none;
+header h1{
+    color:#925E99;
+    font-size:2rem;
+    padding: 10px 10px;
 }
 
-li{
-    display:inline-block;
-}
-
-ul{
-    display: inline-block;
-}
-
-#cabecera{
-	background:#925E99/*url(/viajes/multimedia/fondo_cabecera.png) no-repeat !important*/;
-}
-#cabecera+img{
-	height: 100px;
-	border-radius: 15%;
-}
 blockquote{
-	background-color: #9e9e9e12;
+        background-color: rgb(146 94 153 / 10%);
     display: inline;
     font-family: monospace;
     clear: right;
 }
-/*ul{
-	list-style-image: url("/viajes/multimedia/logo_azul_peque.png");
-	height: 1%;
-}*/
-/*********** POR TIPO DE LETRA **************/
-h1{
-	color:rgba(0,92,128,1);
-	padding: 0.1%;
-}
+
 p{
-	padding: 2%;
+    padding: 2%;
 }
-/********** POR SECCIÓN CONCRETA*************/
-section{
-	display: flex;
-    /* border: solid 3px rgba(0,92,128,1); */
+
+#Bio {
+    display: flex; 
     /* border-style: double; */
     margin: 10px;
     /* width: 45%; */
@@ -59,303 +42,111 @@ section{
     padding-left: 2%;
 }
 
-.nav-principal a,
-.nav-secondary a{
-    width: 100px;
-    /*border: solid 3px #925E99;*/
-}
-/*****************************************************************************************************************/
-#menu-barra-izq{
+
+/*****************************************************************/
+/* Para pantalla de ordenador*/
+@media only screen and (min-width: 1160px){ 
+
+    /* Menú principal horizontal orientarlo*/
+.menu-horizontal li{
     float: left;
 }
 
-#menu-barra-der{
-    float: right;
-}
-
-.menu-item-is-children,
-.menu-item-is-children-Europa {
-    display: none;
-}
-
-.menu-item-has-children:hover  .menu-item-is-children-Europa,
-.menu-item-has-second-children:hover  .menu-item-ciudad-Austria,
-.menu-item-has-second-children:hover  .menu-item-ciudad-España,
-.menu-item-has-second-children:hover  .menu-item-ciudad-Portugal,
-.menu-item-has-second-children:hover  .menu-item-ciudad-RepChec,
-.menu-item-has-children:active  .menu-item-is-children-Europa,
-.menu-item-has-second-children:active  .menu-item-ciudad-Austria,
-.menu-item-has-second-children:active  .menu-item-ciudad-España,
-.menu-item-has-second-children:active  .menu-item-ciudad-Portugal,
-.menu-item-has-second-children:active  .menu-item-ciudad-RepChec {
-    display: block;
-}
-
-
-
-
-nav li {
-    display: inline-block;
-}
-
-nav a {
-    display: block;
-}
-
-/*.menu-item-has-children:hover .menu-item-is-children {
-    display:block;
-}
-
-.menu-item-is-children{
-    display: none;
-}
-
-.menu-item-ciudad{
-    display:none;
-}
-
-.menu-item-has-children:hover .menu-item-ciudad{
-    display:block;
-}*/
-a:-webkit-any-link {
-    color: -webkit-link;
-    cursor: pointer;
-    text-decoration: underline;
-}
-
-@media only screen and (min-width: 930px){ 
-    .menu-arriba .sub-menu a {
-        color: #000;
-        border: 1px solid #000;
-        background-color: #fff;
-        font-size: small;
-        text-transform: uppercase;
-        border-top: 0;
-        padding: 20px;
-        letter-spacing: 0;
-        position: relative;
+    .menu-horizontal{
+        display:flex;
+        justify-content: center;
+    align-items: center;
     }
-    .menu-arriba .sub-menu, 
-    .menu-arriba .sub-menu a {
-        text-align: center;
-        width: 200px;
-    }
-
-    .menu-arriba a {
-        padding-bottom: 29px;
-        padding-top: 29px;
-        padding-left: 6px;
-        padding-right: 6px;
-        font-size: 12px;
-        color: #000;
-        display: block;
-        font-family: Montserrat,sans-serif;
-        font-size: 12px;
-        font-weight: 400;
-        letter-spacing: 1px;
-        padding: 15px;
-        text-transform: uppercase;
-    }
+/* Menús secundarios verticales*/
+.menu-vertical li{
+    float:none;
 }
-
-@media only screen and (min-width: 1100px){
-    .menu-arriba a {
-        padding: 29px 20px;
-    }
-}
-
-@media only screen and (min-width: 1170px){
-    .menu-arriba a {
-        padding-left: 13px;
-        padding-right: 13px;
-        font-size: 15px;
-    }
-} 
-
-a, 
-.after-entry a:hover, 
-.archive-description a:hover, 
-.author-box a:hover, 
-.breadcrumb a:hover, 
-.comment-respond a:hover, 
-.entry-comments a:hover, 
-.entry-content a:hover, 
-.entry-title a:hover, 
-.footer-widgets a:hover, 
-.menu-arriba a:hover, 
-.menu-arriba .sub-menu a:hover, 
-.pagination a:hover, 
-.sidebar a:hover, 
-.site-footer a:hover, 
-.sticky-message a:hover {
-    color: #ee2957;
-}
-
-a {
-    color: #f7a27f;
-    text-decoration: none;
-    background: 0 0;
-}
-
-a, 
-button, 
-input:focus, 
-input[type="button"], 
-input[type="reset"], 
-input[type="submit"], 
-textarea:focus, 
-.button, 
-.gallery img {
-    -webkit-transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
-    -ms-transition: all 0.2s ease-in-out;
-    -o-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
-}
-
-
-*, input[type="search"] {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-
-
-.responsive-menu-icon, 
-.responsive-menu .menu-item-has-children {
-    cursor: pointer;
-}
-
-li {
-    list-style-type: none;
-    text-align: -webkit-match-parent;
-}
-
-ul ul {
-    list-style-type: circle;
-}
-
-ul {
-    list-style-type: disc;
-}
-
-
-.menu-arriba {
-    line-height: 1;
-}
-
-body {
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    background-attachment: fixed;
-    background-color: #fff;
-    background-position: top left;
-    background-repeat: repeat;
-    color: #000;
-    font-family: Lato,sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.75;
-    margin: 0;
-    -webkit-font-smoothing: antialiased;
-}
-
-html {
-    font-family: sans-serif;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-}
-nav{
-    /*float: right;
-    border: solid 3px rgba(0,92,128,1);*/
     
-    margin: 10px;
-    padding: 0.2% 1% 0.2px 0px;
-    text-align: left;
-    display: inline;
-    border-radius: 10%; 
-    width: 40%;/*Le establecemos un ancho*/
-    margin:0 auto; /*Centramos automaticamente*/
-}
-
-::selection {
-    background-color: #000;
-    color: #fff;
-}
-
-nav ul{
-    list-style: none;
-    background-color: #925E99;
-    text-align: center;
-    padding: 0;
-    margin: 0;
-}
-
-nav li{
-    border-right: 1px solid black;
-    height:50px;
-    line-height: 50px;
-    font-size: 140%;
-    display: inline-block;
-    margin-right: -4px;
-}
-
-nav li:last-child{
-    border-right: none;
-}
-
-nav li li{
-    border-right: none;
-    font-size: .8em;
-}
-
-nav a{
-    text-decoration: none;
-    color: #fff;
+    
+/* Configurar las opciones de los menús */
+.menu-horizontal li a{
     display:block;
-    padding-left: 15px;
-    transition: .5s background-color;
+    width:150px;
+    background-color: rgb(146 94 153 / 60%);
+    color:black;
+    border-right: 0.1px solid;
+    padding:0.5rem;
+    text-align:center;
+}
+    
+    
+/* Adaptar bordes*/
+.menu-horizontal{
+    margin: 0 0.3rem;
 }
 
-nav a:hover{
-    background-color: #925E99;
+.menu-horizontal li:last-child a{
+    border-right: none;
 }
 
-/*nav a:active{
-    background-color: #aaa;
-    color: #444;
-    cursor: default;
-}*/
-
-nav>ul>li{
-    text-align: center;
+.menu-vertical li a{
+    border: none;
+    border-bottom: 0.1px solid;
 }
 
-nav>ul>li>a{
-    padding-left: 0;
+.submenu1 li:last-child>a{
+    border:none;
 }
 
-nav li ul{
+.submenu1>li:first-child a{
+    margin-top: 1px;
+}
+
+.submenu2 li:last-child a{
+    border: none;
+}
+
+    
+/*Cambiar al pasar el ratón por encima*/
+.menu-horizontal li a:hover{
+    display:block;
+    background-color: white;
+    color:#925E99;
+}
+
+    
+/* AL pasar el ratón por encima se hace visible el submenu*/    
+.menu-horizontal li:hover >ul{
+    display:block;
+}
+
+
+/* Oculta los submenús */
+.menu-horizontal li ul {
+    display:none;
     position: absolute;
-    display: none;
-    width: inherit;
+    min-width:140px;
 }
 
-nav li:hover ul{
-    display: block;
+    
+/* Reposiciona el nivel 2 */
+.submenu2{
+    right:-172px;
+    top: 0px;
+}
+    
+
+/* Establecer colores submenu2*/
+.submenu2 li a{
+    float:left;
 }
 
 nav li ul li{
-    display: block;
-    width: auto;
-}
-nav li a{
-    display: block;
+    position:relative;
 }
 
+    
+/*Colores*/
+nav a{
+    transition: 1s background-color;
+}
+}
+
+
+/* NO TOCAR, FUNCIONA EL MENÚ ****************/
 
