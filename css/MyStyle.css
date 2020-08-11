@@ -58,6 +58,10 @@ body{
     border:0.01rem solid;
     border-radius:4px;
 }
+
+.leerMes:hover{
+    color: rgb(146 94 153 / 60%);
+}
 /*****************************************************************/
 /* Para pantalla de ordenador*/
 @media only screen and (min-width: 1160px){ 
