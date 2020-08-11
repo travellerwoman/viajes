@@ -36,12 +36,10 @@ p{
 }
 
 #Bio {
-    display: flex; 
-    /* border-style: double; */
+    display: flex;
     margin: 10px;
-    /* width: 45%; */
-    /* float: left; */
     padding-left: 2%;
+    border: .1rem solid rgb(186 156 191);
 }
 
 
