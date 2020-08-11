@@ -175,10 +175,13 @@ nav a{
 }
 
 article{
-    width: 29%;
+    width: 32%;
     display: inline-block;
     float: left;
-    padding: 2% 3%;
+    padding: 1% 0%;
+    margin: .5%;
+    background-color: rgb(146 94 153 / 10%);
+    box-shadow: 0 0 15px #c1c0c1;
 }
 }
 
