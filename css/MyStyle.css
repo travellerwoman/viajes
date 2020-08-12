@@ -132,6 +132,7 @@ h2 {
         min-width: 125px;
         height: 110vh;
         float: left;
+        position: fixed;
       }
   
   nav a {
@@ -160,6 +161,8 @@ h2 {
     display:block;
     width: 80%;
     overflow: auto;
+    justify-content: center;
+    float: right;
   }
 
   article {
@@ -209,6 +212,12 @@ h2 {
         background-color: rgb(231 211 255 / .3);
         border-radius: 10px;
 }
+
+.menu-horizontal li ul {
+    background-color: rgb(231 211 255 / .3);
+    border-radius: 10px;
+}
+
 
 }
 
