@@ -189,8 +189,8 @@ h2 {
     display: inline-block;
     width: 48%;
     float: right; 
-    padding-left:10px;  
-    padding-top:10px;
+    margin-left: 10px;
+    margin-top: 10px;
 }
 
     .menu-horizontal li a:hover{
@@ -246,10 +246,15 @@ blockquote {
 }
 
 .articles-shadow{
-    height:600px;
+    height:550px;
     box-shadow: 0 0 15px #c1c0c1;
 
   }
+
+  article:hover {
+    box-shadow: 0 0 15px black;
+    border-radius: 3%;
+}
 
 
 }
