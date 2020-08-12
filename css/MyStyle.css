@@ -260,7 +260,7 @@ blockquote {
 }
 
 
-/* Para pantalla de ordenador*/
+/* Para pantalla de ordenador **********************************************************************************/
 @media only screen and (min-width: 1160px){ 
     /*Corrección problemas menu movil*/
     .menu-horizontal{
@@ -272,6 +272,8 @@ blockquote {
         float:right;
         justify-content:center;
         height: auto;
+        top: 110px;
+        background-color: rgb(255 255 255 / 0);
     }
 
     #articulos{
@@ -294,6 +296,7 @@ blockquote {
     /* Menú principal horizontal orientarlo*/
 .menu-horizontal li{
     float: left;
+        width: max-content;
 }
 
     .menu-horizontal{
@@ -380,6 +383,7 @@ blockquote {
     float:left;
 }
 
+
 nav li ul li{
     position:relative;
 }
@@ -401,8 +405,9 @@ article{
     float: left;
     padding: 1% 0%;
     margin: .5%;
-    
+    margin-top: 120px;
 }
+
 
 .articles-shadow{
     box-shadow: 0 0 15px #c1c0c1;
