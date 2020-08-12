@@ -97,7 +97,19 @@ h2 {
 
 /* Para pantalla de tablet*/
 @media only screen and (min-width: 700px){ 
-/* Prueba para saber el tamaño del ipad */
+/* Reseteando valores */
+    menu-horizontal * {
+    font-size: 1rem;
+    }
+
+    .menu-horizontal {
+        width: 10rem;
+        height: 100%;
+        text-align: center;
+    }
+    body, html {
+        height: 100%;
+    }
 
 }
 
