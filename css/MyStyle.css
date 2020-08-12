@@ -14,6 +14,8 @@
 header{
     width:100%;
     text-align:center;
+    background:url(/viajes/multimedia/mapamundi-entero.png);
+    background-size: 100%;
 }
 
 header h1{
@@ -22,6 +24,7 @@ header h1{
     padding: 10px 10px;
     font-family:brush script mt;
     display: block;
+    background-color: rgba(0,0,0, .2);
 }
 
 blockquote{
@@ -91,14 +94,11 @@ h2 {
 
 /*****************************************************************/
 /* Para pantalla de móvil*/
-header{
-        background:url(/viajes/multimedia/mapamundi-entero.png);
-        background-size: 100%;
-    }
+
 /* Para pantalla de tablet*/
 @media only screen and (min-width: 700px){ 
 /* Prueba para saber el tamaño del ipad */
-    
+
 }
 
 
