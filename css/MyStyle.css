@@ -134,15 +134,22 @@ h2 {
         float: left;
       }
   
-  nav a{
-    display:block;
-    line-height:45px;
-    height: 45px;
+  nav a {
+    display: inline-block;
+    line-height: 20px;
+    height: 20px;
     color: #000;
     background-color: rgb(231 211 255 / .1);
     text-decoration: none;
     padding-left: 5px;
+    width: 20%;
   }
+
+
+  nav li {
+    justify-content: left;
+    width: 1rem;
+}
   
   #articulos{
     display:inline-block;
