@@ -97,6 +97,12 @@ h2 {
 
 /* Para pantalla de tablet*/
 @media only screen and (min-width: 700px){ 
+
+    body {
+        background-color: #ffffff;
+        padding-left: 0;
+        padding-right: 4%;
+    }
 /* Reseteando valores */
     menu-horizontal * {
     font-size: 1rem;
@@ -126,13 +132,24 @@ h2 {
         position: fixed;
         background-color: rgb(231 211 255 / .1);
     }*/
+    /* Para centrar los artículos*/
+    article h2{
+        height:57px;
+    }
+
+    /*Fijar barra arriba*/
+    header{
+        position:fixed;
+    }
     nav{
-        display: inline-block;
         width: 20%;
         min-width: 125px;
         height: 110vh;
         float: left;
         position: fixed;
+        display: block;
+        background-color: #e7d3ff;
+        top:55px;
       }
   
   nav a {
@@ -161,14 +178,19 @@ h2 {
     display:block;
     width: 80%;
     overflow: auto;
-    justify-content: center;
     float: right;
+    padding-top: 3%;
+    justify-content: right;
+    padding-top: 70px;
+    padding-left: 0;
   }
 
   article {
     display: inline-block;
     width: 48%;
-    float: left;
+    float: right; 
+    padding-left:10px;  
+    padding-top:10px;
 }
 
     .menu-horizontal li a:hover{
@@ -217,6 +239,17 @@ h2 {
     background-color: rgb(231 211 255 / .3);
     border-radius: 10px;
 }
+
+
+blockquote {
+    display: inline-block;
+}
+
+.articles-shadow{
+    height:600px;
+    box-shadow: 0 0 15px #c1c0c1;
+
+  }
 
 
 }
@@ -370,9 +403,9 @@ article{
     box-shadow: 0 0 15px #c1c0c1;
 }
 
-nav{
-    display: block;
-}
+
+
+
 
 }
 
