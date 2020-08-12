@@ -150,6 +150,11 @@ h2 {
     justify-content: left;
     width: 1rem;
 }
+
+
+.portada-imagen {
+    width: 100%;
+}
   
   #articulos{
     display:inline-block;
