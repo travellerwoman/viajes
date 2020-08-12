@@ -111,6 +111,22 @@ h2 {
         height: 100%;
     }
 
+    .portada-imagen {
+    width: 100%;
+    }
+
+    article {
+        width: 35%;
+        display: inline-block;
+        justify-content: center;
+        float: right;
+    }
+    nav {
+        float: left;
+        position: fixed;
+        background-color: rgb(231 211 255 / .1);
+    }
+
 }
 
 
