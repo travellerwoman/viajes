@@ -175,8 +175,9 @@ h2 {
     }
         
         /* AL pasar el ratón por encima se hace visible el submenu*/    
-    .menu-horizontal li:hover >ul{
+    .menu-horizontal li:hover>ul{
         display:block;
+        right: 10px;
     }
 
 
@@ -187,7 +188,7 @@ h2 {
         min-width:140px;
     }
         
-        .submenu2 li a{
+    .submenu2 li a{
         float:left;
     }
 
