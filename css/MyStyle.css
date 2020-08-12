@@ -14,8 +14,9 @@
 header{
     width:100%;
     text-align:center;
-    background: url(multimedia/mapamundi-der.jpeg) top right no-repeat, 
-    url(multimedia/mapamundi-der.jpeg) top left no-repeat;
+    background: url(/viajes/multimedia/mapamundi-der.jpeg) top left no-repeat, 
+    url(/viajes/multimedia/mapamundi-izq.jpeg) top right no-repeat;
+    background-size: 35%;
 }
 
 header h1{
