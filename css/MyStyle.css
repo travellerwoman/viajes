@@ -111,7 +111,7 @@ h2 {
         height: 100%;
     }
 
-    .portada-imagen {
+    /*.portada-imagen {
     width: 100%;
     }
 
@@ -125,7 +125,31 @@ h2 {
         float: left;
         position: fixed;
         background-color: rgb(231 211 255 / .1);
-    }
+    }*/
+    nav{
+        display: inline-block;
+        width: 20%;
+        min-width: 125px;
+        height: 110vh;
+        float: left;
+      }
+  
+  nav a{
+    display:block;
+    line-height:45px;
+    height: 45px;
+    color: #FFFFFF;
+    background-color: #486B02;
+    text-decoration: none;
+    padding-left: 5px;
+  }
+  
+  #articulos{
+    display:inline-block;
+    width: 70%;
+    height: 100vh;
+    overflow: auto;
+  }
 
 }
 
