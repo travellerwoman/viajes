@@ -138,8 +138,8 @@ h2 {
     display:block;
     line-height:45px;
     height: 45px;
-    color: #FFFFFF;
-    background-color: #486B02;
+    color: #000;
+    background-color: rgb(231 211 255 / .1);
     text-decoration: none;
     padding-left: 5px;
   }
