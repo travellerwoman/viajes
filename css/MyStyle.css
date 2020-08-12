@@ -158,7 +158,7 @@ h2 {
   
   #articulos{
     display:inline-block;
-    width: 70%;
+    width: 35%;
     height: 100vh;
     overflow: auto;
   }
