@@ -14,13 +14,13 @@
 header{
     width:100%;
     text-align:center;
-    background:url(/viajes/multimedia/mapamundi-entero.png);
+    background:url(/viajes/multimedia/mapamundi-entero.png) top no-repeat;
     background-size: 100%;
 }
 
 header h1{
     color:#925E99;
-    font-size:4rem;
+    font-size:160%;
     padding: 10px 10px;
     font-family:brush script mt;
     display: block;
@@ -109,6 +109,10 @@ h2 {
         background: url(/viajes/multimedia/mapamundi-der.jpeg) top left no-repeat, 
     url(/viajes/multimedia/mapamundi-izq.jpeg) top right no-repeat;
     background-size: 36%;
+    }
+
+    header h1{
+        font-size: 4rem;
     }
 
     /* Menú principal horizontal orientarlo*/
