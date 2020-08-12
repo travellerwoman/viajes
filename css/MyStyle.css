@@ -170,30 +170,30 @@ h2 {
 
     .menu-horizontal li a:hover{
         display:block;
-    background-color: white;
-    color:#925E99;
-}
-    
-    /* AL pasar el ratón por encima se hace visible el submenu*/    
-.menu-horizontal li:hover >ul{
-    display:block;
-}
+        background-color: white;
+        color:#925E99;
+    }
+        
+        /* AL pasar el ratón por encima se hace visible el submenu*/    
+    .menu-horizontal li:hover >ul{
+        display:block;
+    }
 
 
-/* Oculta los submenús */
-.menu-horizontal li ul {
-    display:none;
-    position: static;
-    min-width:140px;
-}
-    
-    .submenu2 li a{
-    float:left;
-}
+    /* Oculta los submenús */
+    .menu-horizontal li ul {
+        display:none;
+        position: static;
+        min-width:140px;
+    }
+        
+        .submenu2 li a{
+        float:left;
+    }
 
-nav li ul li{
-    position:static;
-}
+    nav li ul li{
+        position:static;
+    }
 
 }
 
