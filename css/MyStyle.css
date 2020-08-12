@@ -14,9 +14,6 @@
 header{
     width:100%;
     text-align:center;
-    background: url(/viajes/multimedia/mapamundi-der.jpeg) top left no-repeat, 
-    url(/viajes/multimedia/mapamundi-izq.jpeg) top right no-repeat;
-    background-size: 36%;
 }
 
 header h1{
@@ -94,18 +91,25 @@ h2 {
 
 /*****************************************************************/
 /* Para pantalla de móvil*/
-
+header{
+        background:url(/viajes/multimedia/mapamundi-entero.png);
+        background-size: 100%;
+    }
 /* Para pantalla de tablet*/
 @media only screen and (min-width: 700px){ 
 /* Prueba para saber el tamaño del ipad */
-    header{
-        background-color: green;
-    }
+    
 }
 
 
 /* Para pantalla de ordenador*/
 @media only screen and (min-width: 1160px){ 
+    /* Cabecera */
+    header{
+        background: url(/viajes/multimedia/mapamundi-der.jpeg) top left no-repeat, 
+    url(/viajes/multimedia/mapamundi-izq.jpeg) top right no-repeat;
+    background-size: 36%;
+    }
 
     /* Menú principal horizontal orientarlo*/
 .menu-horizontal li{
