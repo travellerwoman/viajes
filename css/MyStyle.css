@@ -93,6 +93,17 @@ h2 {
 }*/
 
 /*****************************************************************/
+/* Para pantalla de móvil*/
+
+/* Para pantalla de tablet*/
+@media only screen and (min-width: 700px){ 
+/* Prueba para saber el tamaño del ipad */
+    header{
+        background-color: green;
+    }
+}
+
+
 /* Para pantalla de ordenador*/
 @media only screen and (min-width: 1160px){ 
 
