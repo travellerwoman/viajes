@@ -186,6 +186,8 @@ h2 {
         position: static;
         min-width:140px;
         right: 20px;
+        background-color: rgb(231 211 255 / .3);
+        border-radius: 10px;
     }
         
     .submenu2 li a{
@@ -195,6 +197,18 @@ h2 {
     nav li ul li{
         position:static;
     }
+
+    .submenu2 {
+        background-color: rgb(231 211 255 / .3);
+    }
+
+    .submenu1:hover {
+        background-color: white;
+    }
+    .menu-horizontal li ul {
+        background-color: rgb(231 211 255 / .3);
+        border-radius: 10px;
+}
 
 }
 
