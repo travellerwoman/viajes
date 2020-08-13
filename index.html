@@ -6,6 +6,10 @@
 		<link rel="icon" type="image/png" href="multimedia/logotipoNuevo.png"><!-- Foto pestaña -->
 		<link rel="stylesheet" href="css/MyStyle.css">
 		<script type="text/javascript" src="js/js.js"></script>
+		
+		<link href="//fonts.googleapis.com/css?family=Lobster:400" rel="stylesheet" type="text/css">
+<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 	</head>
 <body>
   <header id="header" class="">
@@ -14,11 +18,13 @@
     <h1>Ochenta días</h1>
   </header>
   <div id="navbar-toggle">
-  	<button type="button" class="navbar-toggle-button"></button>
+  	<input type="checkbox" class="checkbox" id="menu-toogle"/>
+		<label for="menu-toogle" class="menu-toogle"></label>
 	<div id="nav">
 	  	<nav >
 			<div id="menu">
 	    <ul class="menu-horizontal">
+				<li><a href="#" tittle="Home" class="current">Home</a></li>
 				<li><a href="#" tittle="América">América</a></li>
 	      <li><a href="#" tittle="Asia">Asia</a></li>
 				<li>
@@ -70,6 +76,7 @@
 	
 	
 	<!-- Comienza el blog -->
+	<main class="main-w">
 	<div id="articulos">
 	<article>
 		<div class="articles-shadow">
@@ -123,5 +130,6 @@
 			</p>
 		</section>
 	</div>
+</main>
 	</body>
 	<footer> </footer>
