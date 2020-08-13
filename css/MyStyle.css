@@ -94,8 +94,37 @@ h2 {
 
 /*****************************************************************/
 /* Para pantalla de móvil*/
+/* Tabulación submenus*/
+    .menu-horizontal li:hover .submenu1 {
+        /* box-shadow: 0 0 10px #9a9a9a; */
+        box-sizing: border-box;
+        margin-left: 20px;
+    }
+
+    .submenu1 li:hover .submenu2 {
+        box-sizing: border-box;
+        margin-left: 20px;
+    }
+.menu-horizontal li:hover>ul{
+        display:block;
+    }
 
 
+    /* Oculta los submenús */
+    .menu-horizontal li ul {
+        display:none;
+        position: static;
+        min-width:140px;
+        background-color: rgb(231 211 255 / .3);
+        border-radius: 10px;
+    }
+.submenu1 {
+    display:none;
+}
+
+.menu-horizontal li a:hover{
+    displau:block;
+}
 
 
 
@@ -334,7 +363,7 @@ header{
 
 
 /* Para pantalla de tablet****************************************************************************************/
-@media all and (min-width:1090px){
+@media all and (min-width:900px){
 
     body {
         background-color: #ffffff;
@@ -509,7 +538,7 @@ header{
 
 
 /* Para pantalla de ordenador **********************************************************************************/
-@media all and (min-width:1600px){ 
+@media all and (min-width:1160px){ 
     /*Corrección problemas menu movil*/
     .menu-horizontal{
         width:100%;
