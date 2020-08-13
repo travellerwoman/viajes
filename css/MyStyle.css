@@ -135,6 +135,10 @@ h2 {
     /* Para centrar los artículos*/
     article h2{
         height:57px;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
     }
 
     /*Fijar barra arriba*/
