@@ -572,9 +572,32 @@ header{
 /* Para pantalla de ordenador **********************************************************************************/
 @media all and (min-width:1160px){ 
     /*Corrección problemas menu movil*/
-    .menu-horizontal{
+    /* Reseteando valores */
+    .menu-horizontal {
+        height: fit-content;
         width:100%;
+        text-align: center;
+        justify-content:center;
+        align-items:center;
     }
+
+    nav #menu{
+        height:fit-content;
+        width:100%;
+        justify-content:center;
+        align-items:center;
+        text-align: center;
+        background-color:transparent;
+        border-right:none;
+    }
+    body, html {
+        height: 100%;
+    }
+    
+    #navbar-toggle #nav nav .menu-horizontal{
+        background-color: transparent;
+    }
+
     nav{
         display:block;
         width:100%;
@@ -610,7 +633,7 @@ header{
 
     .menu-horizontal{
         justify-content: center;
-    align-items: center;
+        align-items: center;
     }
 /* Menús secundarios verticales*/
 .menu-vertical li{
