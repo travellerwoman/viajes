@@ -231,7 +231,7 @@ h2 {
     /*.submenu1:hover { 
         background-color: white;
     }*/
-    
+
     .menu-horizontal li ul {
         background-color: rgb(231 211 255 / .3);
         border-radius: 10px;
@@ -251,20 +251,25 @@ h2 {
 
 
 
-blockquote {
-    display: inline-block;
-}
+    blockquote {
+        display: inline-block;
+    }
 
-.articles-shadow{
-    height:550px;
-    box-shadow: 0 0 15px #c1c0c1;
+    .articles-shadow{
+        height:550px;
+        box-shadow: 0 0 15px #c1c0c1;
 
-  }
+      }
 
-  article:hover {
-    box-shadow: 0 0 15px black;
-    border-radius: 3%;
-}
+      article:hover {
+        box-shadow: 0 0 15px black;
+        border-radius: 3%;
+    }
+
+    /* Datos con más de una fila en el menu no se superposicionen */
+    #menu a {
+        height: max-content;
+    }
 
 
 }
