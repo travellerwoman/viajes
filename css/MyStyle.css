@@ -384,6 +384,12 @@ h2 {
     min-width:140px;
 }
 
+/* Reposiciona nivel 1*/
+.menu-horizontal li:hover .submenu1 {
+        box-sizing:none;
+        margin-left:0;
+    }
+
     
 /* Reposiciona el nivel 2 */
 .submenu2{
