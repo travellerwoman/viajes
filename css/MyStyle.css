@@ -95,6 +95,10 @@ h2 {
 /*****************************************************************/
 /* Para pantalla de móvil*/
 
+.portada-imagen {
+    width: 100%;
+}
+
 /* Para pantalla de tablet*/
 @media only screen and (min-width: 700px){ 
 
@@ -174,9 +178,6 @@ h2 {
 }
 
 
-.portada-imagen {
-    width: 100%;
-}
   
   #articulos{
     display:block;
