@@ -103,11 +103,11 @@ h2 {
    display: inline-block;
    width: 3.125rem;
    height: 3.125rem;
-   background: #fff url(/viajes/multimedia/navbar-toggle-responsivedesign.JPG) no-repeat center center;
+   background: #fff url(/viajes/multimedia/navbar-toggle-responsivedesign.jpeg) no-repeat center center;
    border: 0;
    }
 
-/* Para pantalla de tablet*/
+/* Para pantalla de tablet****************************************************************************************/
 @media only screen and (min-width: 700px){ 
 
     body {
@@ -243,11 +243,6 @@ h2 {
     /*.submenu1:hover { 
         background-color: white;
     }*/
-
-    .menu-horizontal li ul {
-        background-color: rgb(231 211 255 / .3);
-        border-radius: 10px;
-    }
 
     /* Tabulación submenus*/
     .menu-horizontal li:hover .submenu1 {
