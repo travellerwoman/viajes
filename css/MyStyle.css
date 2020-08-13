@@ -227,18 +227,28 @@ h2 {
         background-color: rgb(231 211 255 / .3);
     }
 
-    .submenu1:hover {
+    /* DE aquí sale el blanco cuando despliegas España*/
+    /*.submenu1:hover { 
         background-color: white;
-    }
+    }*/
+    
     .menu-horizontal li ul {
         background-color: rgb(231 211 255 / .3);
         border-radius: 10px;
-}
+    }
 
-.menu-horizontal li ul {
-    background-color: rgb(231 211 255 / .3);
-    border-radius: 10px;
-}
+    /* Tabulación submenus*/
+    .menu-horizontal li:hover .submenu1 {
+        /* box-shadow: 0 0 10px #9a9a9a; */
+        box-sizing: border-box;
+        margin-left: 20px;
+    }
+
+    .submenu1 li:hover .submenu2 {
+        box-sizing: border-box;
+        margin-left: 20px;
+    }
+
 
 
 blockquote {
