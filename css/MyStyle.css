@@ -523,7 +523,7 @@ header{
     .menu-horizontal li:hover .submenu1 {
         /* box-shadow: 0 0 10px #9a9a9a; */
         box-sizing: border-box;
-        margin-left: 20px;
+        margin-left: 30px;
     }
 
     .submenu1 li:hover .submenu2 {
