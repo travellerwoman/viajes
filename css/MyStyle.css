@@ -108,7 +108,7 @@ h2 {
    }
 
 /* Para pantalla de tablet****************************************************************************************/
-@media only screen and (min-width: 700px){ 
+@media only screen and (min-width: 900px){ 
 
     body {
         background-color: #ffffff;
