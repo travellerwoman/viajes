@@ -364,7 +364,27 @@ header{
 
 /* Para pantalla de tablet****************************************************************************************/
 @media all and (min-width:900px){
-
+    .menu-toogle{
+        display:none;
+    }
+    
+    #nav #menu {
+        left:0px;
+        padding:0 3% 0 0;
+        margin:0;
+    }
+    
+    
+    .menu-horizontal li a{
+        width:100%;
+    }
+    
+    .menu-horizontal li{
+        width:100%
+    }
+    
+    .current a{
+    }
     body {
         background-color: #ffffff;
         padding-left: 0;
