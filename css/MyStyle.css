@@ -143,8 +143,9 @@ nav #menu{
   height:100vh;
   top:0;
   left:-200px; 
-  background-color: rgb(255 255 255);
+  background-color: #e7d3ff;
   transition:all .5s cubic-bezier(0.71, 0.26, 0.62, 1.2); /*Damos a la caja del menú una transición para que tenga un desplazamiento suave*/
+    border-right:4px solid #905e99;
 }
    /*Estilos de los li del menú*/
    .menu-horizontal li a{
@@ -161,6 +162,31 @@ nav #menu{
      color:rgb(0 0 0);
    }
        /*Damos colocamos el triangulo negro a la pestaña del menú dónde nos encontramos actualmente*/
+.current:before {
+          content:"";
+          width:0;
+          height:0;
+          position:absolute; /*Le damos al before una posición absoluta relativa al li que lo contiene*/
+          border-top:17px solid transparent;
+          border-left:15px solid #e7d3ff;
+          border-bottom:17px solid transparent;
+          top:0px;
+          right:-15px; /*Lo posicionamos -15px a la derecha de su contenedor*/
+          z-index:4; /*le otorgamos un z-index alto para que se posicione arriba de otros elementeos*/
+       }
+      /*Colocamos el borde verde al triangulo por medio de otro trangulo verde*/
+      .current:after {
+          content:"";
+          width:0;
+          height:0;
+          position:absolute;/*Le damos al after una posición absoluta relativa al li que lo contiene*/
+          border-top:16.5px solid transparent;
+          border-left:17px solid #905e99;
+          border-bottom:17px solid transparent;
+          top:.5px;
+          right:-21px;
+          z-index:1;  /*le otorgamos un z-index bajo para que se posicione debajo del trinagulo negro*/
+      }
        
   /*Estos son los estilos de la hamburguesa del menú que abre y cierra el mismo*/
   #menu-toogle {
