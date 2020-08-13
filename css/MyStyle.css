@@ -101,10 +101,11 @@ h2 {
 
 .navbar-toggle-button {
    display: inline-block;
-   width: 3.125rem;
-   height: 3.125rem;
+   width: 2.125rem;
+   height: 2.125rem;
    background: #fff url(/viajes/multimedia/navbar-toggle-responsivedesign.jpeg) no-repeat center center;
    border: 0;
+   background-size: 100% 100%;
    }
 
 /* Para pantalla de tablet****************************************************************************************/
