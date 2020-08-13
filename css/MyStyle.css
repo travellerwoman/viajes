@@ -109,7 +109,7 @@ h2 {
    }
 
 /* Para pantalla de tablet****************************************************************************************/
-@media only screen and (min-width: 900px){ 
+@media all and (min-width:900px){
 
     body {
         background-color: #ffffff;
@@ -284,7 +284,7 @@ h2 {
 
 
 /* Para pantalla de ordenador **********************************************************************************/
-@media only screen and (min-width: 1160px){ 
+@media all and (min-width:1160px){ 
     /*Corrección problemas menu movil*/
     .menu-horizontal{
         width:100%;
