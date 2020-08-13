@@ -334,7 +334,7 @@ header{
 
 
 /* Para pantalla de tablet****************************************************************************************/
-@media all and (min-width:900px){
+@media all and (min-width:1090px){
 
     body {
         background-color: #ffffff;
@@ -509,7 +509,7 @@ header{
 
 
 /* Para pantalla de ordenador **********************************************************************************/
-@media all and (min-width:1160px){ 
+@media all and (min-width:1600px){ 
     /*Corrección problemas menu movil*/
     .menu-horizontal{
         width:100%;
