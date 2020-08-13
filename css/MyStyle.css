@@ -423,9 +423,9 @@ article{
     width: 32%;
     display: inline-block;
     float: left;
-    padding: 1% 0%;
-    margin: .5%;
-    margin-top: 120px;
+    margin: 120px 0.5% 1.5% 0.5%;
+   /* margin: .5%;
+    margin-top: 120px;*/
 }
 
 
