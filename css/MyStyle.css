@@ -99,6 +99,14 @@ h2 {
     width: 100%;
 }
 
+.navbar-toggle-button {
+   display: inline-block;
+   width: 3.125rem;
+   height: 3.125rem;
+   background: #fff url(/viajes/multimedia/navbar-toggle-responsivedesign.JPG) no-repeat center center;
+   border: 0;
+   }
+
 /* Para pantalla de tablet*/
 @media only screen and (min-width: 700px){ 
 
