@@ -94,6 +94,10 @@ nav nav #menu a {
     text-decoration: none;
 }
 
+.titulo-pagina{
+
+}
+
 /*#foto-cabecera-der {
     display: inline-block;
     float: left;
@@ -109,6 +113,19 @@ nav nav #menu a {
 /*****************************************************************/
 /* Para pantalla de móvil*/
 /* Tabulación submenus*/
+    .titulo-pagina {
+        text-align: center;
+        padding-top: 200px;
+    }
+
+    .titulo-pagina+#articulos{
+        padding-top:0;
+    }
+
+    .titulo-pagina+#articulos article{
+        margin-top:0;
+    }
+
     .menu-horizontal li:hover .submenu1 {
         /* box-shadow: 0 0 10px #9a9a9a; */
         box-sizing: border-box;
