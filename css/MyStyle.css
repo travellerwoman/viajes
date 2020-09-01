@@ -6,7 +6,7 @@
     margin:0;
     padding:0;
     /*background-color:#f7f7f7;*/
-    font-family: «DejaVu Sans Mono»,«Bitstream Vera Sans Mono», monospace,Verdana, Arial, Helvetica, sans-serif;
+    font-family: "«DejaVu Sans Mono»","«Bitstream Vera Sans Mono»", monospace,Verdana, Arial, Helvetica, sans-serif;
     font-size: 1rem;
 }
 
@@ -22,7 +22,7 @@ header h1{
     color:#925E99;
     font-size:160%;
     padding: 10px 10px;
-    font-family:brush script mt;
+    font-family:"brush script mt";
     display: block;
     background-color: #ffffff66;
 }
@@ -121,7 +121,7 @@ nav nav #menu a {
     }
     h1.titulo-pagina {
         font-size:3rem;
-        font-size:«DejaVu Sans Mono»;
+        font-size:"«DejaVu Sans Mono»";
         color:#915e99;
     }
 
