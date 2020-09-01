@@ -639,7 +639,6 @@ header{
 
     #articulos{
         display:block;
-        overflow:none;
         width:100%;
         height:auto;
     }
@@ -732,7 +731,6 @@ header{
 
 /* Reposiciona nivel 1*/
 .menu-horizontal li:hover .submenu1 {
-        box-sizing:none;
         margin-left:0;
     }
 
