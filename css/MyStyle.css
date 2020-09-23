@@ -8,6 +8,7 @@
     /*background-color:#f7f7f7;*/
     font-family: "«DejaVu Sans Mono»","«Bitstream Vera Sans Mono»", monospace,Verdana, Arial, Helvetica, sans-serif;
     font-size: 1rem;
+    z-index: 2;
 }
 
 /* Encabezado*/
@@ -98,17 +99,56 @@ nav nav #menu a {
 
 }
 
-/*#foto-cabecera-der {
+#foto-cabecera-der {
     display: inline-block;
     float: left;
     width: 30%;
+    z-index: 1;
 }
 
 #foto-cabecera-izq {
     display: inline-block;
     float: right;
     width: 30%;
-}*/
+    z-index: 1;
+}
+
+iframe {
+  width: 40%;
+  float: right;
+  display: inline-block;
+  height: 30vh;
+}
+
+footer * {
+  margin-top: 1.5% !important;
+  align-content: center;
+} 
+
+footer a{
+  text-decoration: none;
+  color: black;
+  padding-left: 2%;
+}
+
+footer{
+  position: sticky;
+  width: 100%;
+  height: 5%;
+  bottom: 0px;
+  background-color: #d5b4ff;
+
+}
+
+footer p{
+  display: inline-block;
+  float: right;
+  margin-right: 1%;
+  border: double;
+  border-radius: 20%;
+  padding: .5%;
+}
+
 
 /*****************************************************************/
 /* Para pantalla de móvil*/
@@ -161,6 +201,10 @@ nav nav #menu a {
 
 .menu-horizontal li a:hover{
     display:block;
+}
+
+.calendar{
+  width: 1000px;
 }
 
 
@@ -401,11 +445,18 @@ header{
 
 /* Para pantalla de tablet****************************************************************************************/
 @media all and (min-width:900px){
+    iframe{
+      margin-left: 25%;
+    }
+    #bio{
+      margin-left: 25%;
+    }
     .menu-toogle{
         display:none;
     }
     header {
-        width: 100%;
+      width: 100%;
+      display: inline-block;
     }
     
     #nav #menu {
@@ -481,6 +532,7 @@ header{
         display: block;
         background-color: #e7d3ff;
         top:55px;
+        z-index: 3;
       }
   
   #menu {
@@ -575,6 +627,7 @@ header{
 
     blockquote {
         display: inline-block;
+        margin-left: 25%;
     }
 
     .articles-shadow{
@@ -592,13 +645,24 @@ header{
     #menu a {
         height: max-content;
     }
+    #foto-cabecera-der {
+      width: 40%;
+      z-index: -10 !important;
+      height: 10vh;
+    }
 
-
+    #foto-cabecera-izq {
+      width: 40%;
+      z-index: -10 !important;
+      height: 10vh;
+    }
 }
 
 
+
+
 /* Para pantalla de ordenador **********************************************************************************/
-@media all and (min-width:1160px){ 
+@media all and (min-width:1243px){ 
     /*Corrección problemas menu movil*/
     /* Reseteando valores */
     .menu-horizontal {
@@ -786,5 +850,3 @@ article:hover {
 
 }
 
-
-/* NO TOCAR, FUNCIONA EL MENÚ ****************/
