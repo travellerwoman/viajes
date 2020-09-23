@@ -637,6 +637,10 @@ footer{
 @media all and (min-width:1243px){ 
     /*Corrección problemas menu movil*/
     /* Reseteando valores */
+    #Bio{
+      margin-left: 1% !important;
+    }
+
     .menu-horizontal {
         padding:0 3%;
         height: fit-content;
@@ -679,6 +683,10 @@ footer{
         height:auto;
     }
     /* Cabecera */
+    #foto-cabecera-izq, #foto-cabecera-der{
+      display: none;
+    }
+    
     header{
         background: url(/viajes/multimedia/mapamundi-der.jpeg) top left no-repeat, 
     url(/viajes/multimedia/mapamundi-izq.jpeg) top right no-repeat;
