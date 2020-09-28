@@ -115,6 +115,11 @@ div{
   display: block;
 }
 
+.calendar {
+  padding-top: 200px;
+  padding-left: 100px;
+}
+
 
 /*****************************************************************/
 /* Para pantalla de móvil*/
