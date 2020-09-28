@@ -119,8 +119,8 @@ div{
   padding-top: 200px;
   padding-left: 100px;
 }
-#menu-toogle p{
-  position: hidden;
+#menu-toogle {
+  color: rgba(0,0,0,0);
 }
 
 
